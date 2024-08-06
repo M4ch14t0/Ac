@@ -1,0 +1,140 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color:  gainsboro;
+}
+
+header {
+    background-color: #520b5c;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+    background-color: #520b5c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+h1 {
+    font-size: 25px; 
+}
+
+h2 {
+    font-size: 21px; 
+}
+
+/* Parte Mobile */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        text-align: left;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    main img {
+        width: 70%; 
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    footer {
+        position: relative;
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    h2 {
+        font-size: 18px; 
+    }
+}
